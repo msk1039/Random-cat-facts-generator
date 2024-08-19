@@ -31,3 +31,28 @@ body {
     text-wrap: balance;
   }
 }
+
+.pawdiv:hover {
+  /* background-color: #f1f1f1; */
+  /* border-radius: 10px; */
+  /* transition: 0.3s; */
+
+  /* background-color: #f1f1f100; */
+  background-image: url("../public/cat-paw.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-size: contain; */
+  background-position: center;
+}
+.pawdiv {
+  background-color: antiquewhite;
+}
+
+.cat-image {
+  width: 300px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 16px;
+  border-radius: 5px;
+}
